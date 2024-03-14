@@ -1,0 +1,90 @@
+.bene-container {
+    background: #EDFEFF;
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec-left {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 9rem;
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+    gap: 0.5rem;
+}
+
+.bene-container > div {
+    flex: 1;
+}
+.sec-right {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.content {
+    padding-bottom: 2rem;
+}
+
+.icon {
+    padding-right : 20px;
+    padding-top: 10px;
+}
+
+@media (max-width:768px) {
+    .sec-left {
+        padding-left: 4rem;
+    }
+    .sec-left h1 {
+        font-size: 1.3rem;
+    }
+    .sec-left h3 {
+        font-size: 1rem;
+    }
+    .sec-right h3{
+        font-size: 0.8rem;
+    }
+    .sec-right   {
+        font-size: small;
+    }
+}
+@media (max-width:600px) {
+    .sec-left {
+        padding-left: 2.5rem;
+    }
+    .sec-left h1 {
+        font-size: 1.2rem;
+    }
+    .sec-left h3 {
+        font-size: 1rem;
+    }
+    .sec-right h3{
+        font-size: 0.7rem;
+    }
+    .sec-right   {
+        font-size: small;
+    }
+}
+@media (max-width:375px) {
+    .sec-left {
+        padding-left: 0.8rem;
+    }
+    .sec-left h1 {
+        font-size: 0.7rem;
+    }
+    .sec-left h3 {
+        font-size: 0.5rem;
+    }
+    .sec-right h3{
+        font-size: 0.5rem;
+    }
+    .sec-right   {
+        font-size: small;
+    }
+}

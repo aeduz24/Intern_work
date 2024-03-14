@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D4EAED;
+  }
+
+.card {
+    width: 270px;
+    height: 350px;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: 40px;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    background: #fff;
+}
+.card img {
+    height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.card h3 {
+    padding: 2px 0;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    text-align: center;
+}
+.card p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: -10px;
+}
+.btn {
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #4361ee;
+    left: 7.3rem;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+@media (max-width:768px)
+  {
+    .container .card {
+        width: 200px;
+        height: 200px;
+    }
+    .container .card img {
+        height: 60px;
+    }
+    .container .card h3 {
+        padding: 2px 0;
+        font-size: 1rem;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .container .card p {
+        font-size: 10px;
+        text-align: center;
+        padding-top: -10px;
+    }
+    .container .card .btn {
+        font-size: 28px;
+        left: 5.4rem;
+        margin-bottom: -0.2rem;
+    }
+  }
+  @media (max-width:600px) {
+    .container .card {
+        width: 150px;
+        height: 150px;
+    }
+    .container .card img {
+        height: 40px;
+    }
+    .container .card h3 {
+        padding: 2px 0;
+        font-size: 0.6rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .container .card p {
+        font-size: 7px;
+        text-align: center;
+        padding-top: -10px;
+    }
+    .container .card .btn {
+        font-size: 20px;
+        left: 4rem;
+        margin-bottom: -0.1rem;
+    }
+  }
+
+  @media (max-width:375px) {
+    .container .card {
+        margin-left: -10px;
+    }
+  }
