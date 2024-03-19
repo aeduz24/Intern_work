@@ -9,9 +9,9 @@ function Items() {
     
     return (
       <>
-      <div className="body">
+      <div className="boody">
       <h1 className="heading">Why do Mentees Trust Us?</h1>
-      <div className="wrapper">{card}</div>
+      <div className="wraper">{card}</div>
       </div>
       </>
     );

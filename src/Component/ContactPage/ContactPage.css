@@ -4,6 +4,8 @@
     display: flex;
     align-content: center;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .contact-col {
     flex-basis: 48%;
@@ -11,8 +13,8 @@
 }
 .contact-col h3 {
     color: #000F38;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 35px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -38,7 +40,7 @@
 .contact form input, .contact form textarea {
     display: block;
     width: 100%;
-    background: #EBECFE;
+    background: rgb(246, 246, 246);
     padding: 15px;
     border: 0;
     outline: 0;
@@ -51,9 +53,30 @@
     padding: 8px 22px;
     margin-top: 6px;
     border-radius: 6px;
-    background: #7d2ae8;
+    background: rgb(79 70 229);
     transition: all 0.2s ease;
 }
 .btn-cs:active {
     transform: scale(0.96);
+}
+
+@media (max-width: 600px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact-col p {
+        font-size: 15px;
+    }
+    .contact-col ul li {
+        font-size: 15px;
+    }
+    .contact-col ul li img {
+        width: 20px;
+    } 
+    .contact-col ul {
+        margin-bottom: 4rem;
+    }
+    .contact-col h3 {
+        font-size: 25px;
+    }
 }

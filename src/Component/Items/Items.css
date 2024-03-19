@@ -1,4 +1,4 @@
-.body h1 {
+.boody h1 {
     margin-top: 9rem;
     font-size: 2.5rem;
     font-weight: 700;
@@ -8,7 +8,7 @@
     text-align: center;
   }
 
-.wrapper {
+.wraper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -19,29 +19,29 @@
     padding-right: 5rem;
   }
 
-.body {
+.boody {
   top: 0;
   margin: 0;
   align-items: center;
   padding-top: 0px;
   justify-content: center;
   padding: 0 5%;
-  background: #D4EAED;
+  background: aliceblue;
 }  
 
 @media (max-width: 1025px)  {
-  .body h1 {
+  .boody h1 {
     font-size: 2.3rem;
   }
 }
 @media (max-width:768px)
 {
-  .body h1 {
+  .boody h1 {
     font-size: 2.1rem;
   }
 }
 @media (max-width:600px) {
-  .body h1 {
+  .boody h1 {
     font-size: 1.8rem;
   }
 }

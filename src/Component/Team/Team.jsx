@@ -9,7 +9,7 @@ function Team() {
     })
     return (
       <>
-      <div className="body">
+      <div className="boddy">
       <h1 className="heading">Meet Our Team</h1>
       <p className="para">We are to-be graduates from IIT Bombay, aspires to deliver high quality mentorship through our qualified mentors </p>
       <p className="para">and committed to serve every Indian aspirant who dreaming to serve our nation and become an asset in future.</p>
